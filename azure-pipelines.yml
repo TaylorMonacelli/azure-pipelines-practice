@@ -11,7 +11,7 @@ jobs:
   pool:
     vmImage: 'macOS-10.13'
   steps:
-  - script: echo hello from macOS
+  - script: brew bundle
 - job: Windows
   pool:
     vmImage: 'windows-2019'
