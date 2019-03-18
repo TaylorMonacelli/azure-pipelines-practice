@@ -7,32 +7,32 @@ jobs:
     vmImage: 'ubuntu-16.04'
   steps:
   - script: echo hello from Linux
-- job: macOS-brewfile1
+- job: macOS_brewfile1
   pool:
     vmImage: 'macOS-10.13'
   steps:
   - script: brew bundle --file=Brewfile1 --verbose
-- job: macOS-brewfile2
+- job: macOS_brewfile2
   pool:
     vmImage: 'macOS-10.13'
   steps:
   - script: brew bundle --file=Brewfile2 --verbose
-- job: macOS-brewfile3
+- job: macOS_brewfile3
   pool:
     vmImage: 'macOS-10.13'
   steps:
   - script: brew bundle --file=Brewfile3 --verbose
-- job: macOS-brewfile4
+- job: macOS_brewfile4
   pool:
     vmImage: 'macOS-10.13'
   steps:
   - script: brew bundle --file=Brewfile4 --verbose
-- job: macOS-brewfile5
+- job: macOS_brewfile5
   pool:
     vmImage: 'macOS-10.13'
   steps:
   - script: brew bundle --file=Brewfile5 --verbose
-- job: macOS-brewfile6
+- job: macOS_brewfile6
   pool:
     vmImage: 'macOS-10.13'
   steps:
